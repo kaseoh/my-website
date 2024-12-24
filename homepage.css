@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1f1f1f, #282828);
+    color: #fff;
+}
+
+header {
+    background: #121212;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover,
+.nav-bar a.active {
+    color: #ff007f;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #1e1e1e, #3b3b3b);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #000000, #ff0000, #00a800, #ffffff); /* Kenyan flag colors */
+    background-size: 300%; /* Makes the gradient bigger to create a smooth movement effect */
+    -webkit-background-clip: text;
+    color: transparent; /* Make text color transparent to show the gradient */
+    transition: background-position 1s ease-in-out; /* Smooth transition for the gradient */
+}
+
+.hero h1:hover {
+    background-position: -100% 0; /* Moves the gradient when hovered */
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.featured-articles {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-articles h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.articles-container article {
+    width: 30%;
+    background: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background 0.5s ease-in-out;
+    background-size: cover;
+    background-position: center;
+}
+
+.articles-container h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.articles-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff007f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: #121212;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #bbb;
+}
+
+/* Hover Effects for Articles */
+.ai-article:hover {
+    background-image: url('AI.jpg');
+}
+
+.cybersecurity-article:hover {
+    background-image: url('cybersecurity.jpg');
+}
+
+.tech-article:hover {
+    background-image: url('tech.jpg');
+}

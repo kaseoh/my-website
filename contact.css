@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1f1f1f, #282828);
+    color: #fff;
+}
+
+header {
+    background: #121212;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover,
+.nav-bar a.active {
+    color: #ff007f;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #1e1e1e, #3b3b3b);
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #1f1f1f;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background: #3b3b3b;
+    outline: none;
+}
+
+.contact-form button {
+    background: linear-gradient(to right, #00d4ff, #ff007f);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-form button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255, 0, 127, 0.5);
+}
+
+/* Social Media Section */
+.contact-socials {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-socials h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+.social-icon {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-icon.facebook img {
+    filter: grayscale(100%);
+}
+
+.social-icon.facebook:hover img {
+    filter: none;
+}
+
+.social-icon.twitter img {
+    filter: grayscale(100%);
+}
+
+.social-icon.twitter:hover img {
+    filter: none;
+}
+
+.social-icon.linkedin img {
+    filter: grayscale(100%);
+}
+
+.social-icon.linkedin:hover img {
+    filter: none;
+}
+
+.social-icon.instagram img {
+    filter: grayscale(100%);
+}
+
+.social-icon.instagram:hover img {
+    filter: none;
+}
